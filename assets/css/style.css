@@ -1,0 +1,83 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body{
+	width: 100%;
+	font-family: 'Andada Pro', serif;
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight: 800;
+	text-transform: capitalize;
+}
+p{
+	.font-size: 1.1em;
+}
+.main-section .col{
+	height: 450px;
+}
+.main-section-bg{
+	background: url('../images/bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.main-text{
+	background: #c8e1db;
+	padding-left: 50px;
+}
+.main-text h1{
+	padding-top: 100px;
+	font-size: 45px;
+	text-transform: none;
+}
+.main-text p{
+	font-size: 18px;
+}
+.features{
+	margin-top: 100px;
+}
+.features i{
+	font-size: 30px;
+	margin-top: 5px;
+	text-align: center;
+}
+.shares{
+	margin-top: 100px;
+}
+.slider{
+	height: 400px;
+	margin-top: 100px;
+	background: rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+}
+.slider .carousel{
+	height: 100%;
+	padding: 20px;
+	text-align: center;
+}
+.slider img {
+	width: 100%;
+}
+.slider .carousel-control-prev, .slider .carousel-control-next{
+	color: black;
+}
+.features2{
+	margin-top: 100px;
+}
+.marketplace{
+	margin-top: 100px;
+}
+@media screen and (max-width: 380px){
+	.row{
+		margin: 0;
+		padding: 0;
+	}
+	.slider{
+		height: 90vh;
+	}
+	.features .features-bg, .features2 .features2-image{
+		margin-bottom: 30px;
+	}
+}
